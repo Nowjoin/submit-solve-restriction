@@ -1,118 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apply for Verification</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warning</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #ffffff;
-      color: #000;
-    }
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#fff;
+}
 
-    .container {
-      max-width: 420px;
-      margin: 0 auto;
-      padding: 60px 20px;
-      text-align: center;
-    }
+.container{
+  max-width:420px;
+  margin:auto;
+  padding:60px 20px;
+  text-align:center;
+}
 
-    .badge {
-      width: 80px;
-      height: 80px;
-      background: #1d9bf0;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 30px;
-    }
+/* META LOGO CIRCLE */
+.meta-logo{
+  width:90px;
+  height:90px;
+  background:#1877f2;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 30px;
+  font-size:30px;
+  font-weight:bold;
+  color:#fff;
+}
 
-    .badge svg {
-      width: 40px;
-      height: 40px;
-      fill: #fff;
-    }
+/* WARNING ICON */
+.warning-icon{
+  font-size:48px;
+  color:#e53935;
+  margin-bottom:20px;
+}
 
-    h1 {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+p{
+  font-size:15px;
+  color:#333;
+  line-height:1.6;
+  margin-bottom:30px;
+}
 
-    p {
-      font-size: 15px;
-      line-height: 1.6;
-      color: #333;
-      margin-bottom: 30px;
-    }
+.btn{
+  display:inline-block;
+  padding:14px 40px;
+  background:#1877f2;
+  color:#fff;
+  text-decoration:none;
+  border-radius:30px;
+  font-size:16px;
+  font-weight:bold;
+}
 
-    .btn {
-      display: inline-block;
-      padding: 14px 40px;
-      background: #1d9bf0;
-      color: #fff;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 30px;
-      font-weight: bold;
-    }
-
-    .btn:hover {
-      background: #0f8ad8;
-    }
-
-    .link {
-      display: block;
-      margin-top: 30px;
-      font-size: 14px;
-    }
-
-    .link a {
-      color: #1d9bf0;
-      text-decoration: none;
-    }
-
-    .footer {
-      margin-top: 30px;
-      font-size: 12px;
-      color: #777;
-    }
-  </style>
+.footer{
+  margin-top:30px;
+  font-size:12px;
+  color:#777;
+}
+</style>
 </head>
+
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <div class="badge">
-      <svg viewBox="0 0 24 24">
-        <path d="M9 16.2l-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5z"/>
-      </svg>
-    </div>
+  <!-- META LOGO (instead of blue tick) -->
+  <div class="meta-logo">meta</div>
 
-    <h1>Become Verified</h1>
+  <!-- WARNING ICON (instead of Become Verified text) -->
+  <div class="warning-icon">⚠️</div>
 
-    <p>
-      Grow your social presence with our verification program.
-      This subscription is available for creators and businesses.
-    </p>
+  <p>
+    Your account has been flagged for unusual activity.
+    Please review and confirm your details to avoid restrictions.
+  </p>
 
-    <a href="#" class="btn">Apply</a>
+  <a href="#" class="btn">Continue</a>
 
-    <div class="link">
-      Are you a business?
-      <br>
-      <a href="#">Get more information</a>
-    </div>
-
-    <div class="footer">
-      Features, availability, and pricing may vary by region.
-    </div>
-
+  <div class="footer">
+    Security notice – action may be required.
   </div>
+
+</div>
 
 </body>
 </html>
